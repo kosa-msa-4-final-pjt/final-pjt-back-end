@@ -56,7 +56,6 @@ public class ApplicationSetUp {
 
 //    @PostConstruct
     public void init() {
-
         ConstructionType type1 = new ConstructionType("창호/샷시");
         ConstructionType type2 = new ConstructionType("도배/페인트");
         ConstructionType type3 = new ConstructionType("욕실");
