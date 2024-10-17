@@ -84,7 +84,6 @@ public class ApplicationSetUp {
         membershipTypeRepository.save(basic);
         membershipTypeRepository.save(premium);
 
-
         Member member1 = Member.ofLocalForTest(AccountRole.USER, "test1@test.com", encoder.encode("qweqwe123!"),
                 "010-9393-0303",
                 MemberType.LOCAL, "testNickName1", "Oh1");
