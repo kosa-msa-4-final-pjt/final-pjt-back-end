@@ -113,7 +113,6 @@ public class ApplicationSetUp {
 
         membershipRepository.saveAll(List.of(membership1, membership2));
 
-
         // 리뷰 임의 데이터 두개 넣었어요. content는 비워뒀어요.
         Review review1 = Review.ofNewReview(
                 "리뷰 제목 1", LocalDateTime.now(), LocalDate.of(2023, 1, 1), LocalDate.of(2023, 2, 1),
